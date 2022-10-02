@@ -5,7 +5,7 @@ now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
 
-my_date_string=f"Hello World! It's {dt_string} did you build this?"
+my_date_string=f"Hello World! It's {dt_string}!"
 
 app = FastAPI()
 

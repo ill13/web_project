@@ -48,7 +48,7 @@ now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
 
-my_date_string=f"Hello World! It's {dt_string} did you build this?"
+my_date_string=f"Hello World! It's {dt_string}!"
 
 app = FastAPI()
 
@@ -61,3 +61,4 @@ def index():
 #### Go live!
 
 Go into your *app* folder and execute: ```uvicorn main:app --host 0.0.0.0 --port 8000```
+Open a web browser and navigate to ```localhost:8000``` and you should see some text!
