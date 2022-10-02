@@ -1,9 +1,7 @@
 # Hello World using FastAPI
 
 
-Just a simple demo of FastAPI to display a webpage
-
-Demonstrates a simple webpage with FastAPI
+Just a simple demo of FastAPI to display a webpage [Demonstrates a simple webpage using FastAPI and uvicorn]
 
 
 This will eventually be moved to the WSL section, however, let's just speedrun it for now
@@ -20,11 +18,7 @@ sudo apt install python3-venv
 
 #### Create a Python venv
 
-```python -m venv venv```
-
-Once that completes
-
-```source venv/bin/activate```
+```python -m venv venv``` Once that completes ```source venv/bin/activate```
 
 Note: Don't forget to create a *.gitignore* and add the *venv/* folder 
 
