@@ -26,7 +26,7 @@ Note: Don't forget to create a *.gitignore* and add the *venv/* folder
 
 ```pip install fastapi uvicorn[standard]```
 
-This will install a bunch of stuff, however that should be all you need to start hosting
+This will install a bunch of stuff, however that should be all you need to start using FastAPI and uvicorn
 
 #### Create the *Hello World*
 
@@ -56,3 +56,5 @@ def index():
 
 Go into your *app* folder and execute: ```uvicorn main:app --host 0.0.0.0 --port 8000```
 Open a web browser and navigate to ```localhost:8000``` and you should see some text!
+
+That's pretty much it!

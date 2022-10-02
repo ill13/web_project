@@ -1,9 +1,12 @@
 # Hello World using FastAPI with Docker
 
 
-Just a simple demo using *FastAPI* with *Docker*
+Just a simple demo using *FastAPI* with *Docker* [Demonstrates using *Docker* and ```docker-compose``` to build complete python container]
 
-Demonstrates using *Docker* and ```docker-compose``` to build complete python container
+We are going to copy the *app* folder from the *Hello World FastAPI* project and turn it into a alpine based python container. For you oldheads out there, a Docker container is basically a virtual machine. It's not really a VM, but for our purposes we can think of it as a VM and not worry about the differences.
+
+We are going to install docker and docker-compose in WSL
+
 
 #### Using ```docker-compose```
 
