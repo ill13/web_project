@@ -5,8 +5,6 @@ Just a simple demo using *FastAPI* with *Docker*
 
 Demonstrates using *Docker* and ```docker-compose``` to build complete python container
 
-
-
 #### Using ```docker-compose```
 
 Take a look at *docker-compose.yml*
