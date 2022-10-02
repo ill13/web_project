@@ -23,4 +23,7 @@ sudo apt install python3-venv
 ```python -m venv venv```
 
 Once that completes
+
 ```source venv/bin/activate```
+
+Note: Don't forget to create a *.gitignore* and add the *venv/* folder 
