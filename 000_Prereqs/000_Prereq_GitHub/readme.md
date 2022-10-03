@@ -1,3 +1,6 @@
+Github being pissy and you want to overwrite? : ```git push origin --force``` then do regular push
+
+
 # Setting up GitHub for projects
 
 
