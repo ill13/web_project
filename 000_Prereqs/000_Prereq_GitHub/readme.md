@@ -40,7 +40,7 @@ rm -r ~/downloads
 ```
 #### Push to git
 
-From *home folder* ```nano .consolerc``` and add this
+From *home folder* ```nano .bashrc``` and add this
 
 ```console
 ### SAFER LAZY GIT
