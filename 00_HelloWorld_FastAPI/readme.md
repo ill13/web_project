@@ -7,7 +7,7 @@ Just a simple demo of FastAPI to display a webpage [Demonstrates a simple webpag
 This will eventually be moved to the WSL section, however, let's just speedrun it for now
 
 #### Install Python if it's not already
-```bash
+```console
 sudo apt update && sudo apt upgrade
 sudo apt install python3-pip
 sudo apt install python3-venv

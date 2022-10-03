@@ -11,18 +11,18 @@ Github being pissy and you want to overwrite? : ```git push origin --force``` th
 ```sudo apt-get upgrade```
 ```sudo apt install git```
 
-```bash
+```console
 git config --global user.name "ill13"
 git config --global user.email ill13@ill13.com
 git commit -m "updated readme"
 ```
 
 https://itslinuxfoss.com/install-configure-git-ubuntu-22-04/
-https://www.thiscodeworks.com/install-gh-cli-linux-installation-linux-bash-wsl-github-cli/61fb00eab783be0015bbafb2
+https://www.thiscodeworks.com/install-gh-cli-linux-installation-linux-console-wsl-github-cli/61fb00eab783be0015bbafb2
 
 ##### Install gh in WSL
 
-```bash
+```console
 #!/usr/bin/env bash
 # install github-cli
 VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-`
@@ -40,9 +40,9 @@ rm -r ~/downloads
 ```
 #### Push to git
 
-From *home folder* ```nano .bashrc``` and add this
+From *home folder* ```nano .consolerc``` and add this
 
-```bash
+```console
 ### SAFER LAZY GIT
 function ptg() {
   git add .
