@@ -9,7 +9,7 @@ We are going to install *docker* and *docker-compose* in WSL
 
 ## Install *docker* and *docker-compose* if it's not already installed
 
-```bash
+```console
 sudo apt update && sudo apt upgrade
 sudo apt install docker
 sudo apt install docker-compose
@@ -17,7 +17,7 @@ sudo apt install docker-compose
 ```
 ## Running *docker*
 
-```
+```console
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 sudo usermod -aG docker $USER
@@ -29,13 +29,13 @@ To start *docker* under WSL you'll need to fire up a new PowerShell terminal and
 
 NOTE: Should add how to start and autostart docker on Debian / Ubuntu
 
-In your main VSCode terminal window you can start your FastAPI app with ```docker-compose up -d```. The *-d* flag allows you to run it detached so you can free your current terminal window for more commands.
+In your main VSCode terminal window you can build and start your FastAPI app with ```docker-compose up -d```. The *-d* flag allows you to run it detached so you can free your current terminal window for more commands.
 
 Open a web browser and navigate to ```localhost:8000``` and you should see some updated text!
 
 ## Using ```docker-compose```
 
-When in the directory of the container you want to start, just do :```docker-compose up -d```
+When in the directory of the container you want to build and start, just do :```docker-compose up -d```
 
 After making some changes to your container do ```docker-compose build```
 
