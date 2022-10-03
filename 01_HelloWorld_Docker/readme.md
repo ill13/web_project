@@ -27,7 +27,7 @@ To start *docker* under WSL you'll need to fire up a new PowerShell terminal and
 
 In your main VSCode terminal window you can start your FastAPI app with ```docker-compose up -d```. The *-d* flag allows you to run it detached so you can free your current terminal window for more commands.
 
-Open a web browser and navigate to ```localhost:8000``` and you should see some text!
+Open a web browser and navigate to ```localhost:8000``` and you should see some updated text!
 
 #### Using ```docker-compose```
 
