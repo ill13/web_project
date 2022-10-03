@@ -7,6 +7,15 @@ We are going to copy the *app* folder from the *Hello World FastAPI* project and
 
 We are going to install docker and docker-compose in WSL
 
+#### Install *docker* and *docker-compose* if it's not already
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install docker
+sudo apt install docker-compose
+
+```
+
+
 
 #### Using ```docker-compose```
 

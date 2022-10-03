@@ -1,0 +1,10 @@
+version: '3'
+services:
+  simple-fastapi:
+    build: .
+    container_name: "simple-fastapi"
+    ports:
+      - "8000:9000" # first is external port and second is port where app is running
+    volumes:  
+      - ./app/:/app
+    image: ill13/simple-fastapi:latest

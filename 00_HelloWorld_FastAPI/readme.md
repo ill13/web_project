@@ -16,11 +16,13 @@ sudo apt install python3-venv
 #### Set Python 3 as default Python
 ```sudo update-alternatives --install  /usr/bin/python python /usr/bin/python3 1```
 
-#### Create a Python venv
+#### Using *venv*
 
 ```python -m venv venv``` Once that completes ```source venv/bin/activate```
 
-Note: Don't forget to create a *.gitignore* and add the *venv/* folder 
+When you are done with *venv* and you'd like to exit the virtual environment, just type ```deactivate``` to exit. 
+
+Note: Don't forget to create a *.gitignore* and add the *venv/* folder so Github doesn't get full of stuff
 
 #### Install FastAPI and uvicorn
 
