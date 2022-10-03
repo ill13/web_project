@@ -7,7 +7,7 @@ We are going to copy the *app* folder from the *Hello World FastAPI* project and
 
 We are going to install *docker* and *docker-compose* in WSL
 
-#### Install *docker* and *docker-compose* if it's not already
+## Install *docker* and *docker-compose* if it's not already
 
 ```bash
 sudo apt update && sudo apt upgrade
@@ -15,7 +15,7 @@ sudo apt install docker
 sudo apt install docker-compose
 
 ```
-#### Running *docker*
+## Running *docker*
 
 ```
 sudo systemctl enable docker.service
@@ -31,7 +31,7 @@ In your main VSCode terminal window you can start your FastAPI app with ```docke
 
 Open a web browser and navigate to ```localhost:8000``` and you should see some updated text!
 
-#### Using ```docker-compose```
+## Using ```docker-compose```
 
 When in the directory of the container you want to start, just do :```docker-compose up -d```
 
