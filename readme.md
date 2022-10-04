@@ -24,7 +24,7 @@ There is an assumption you are somewhat familiar with Linux and WSL, Scripting, 
 - ```ptg "things you did"``` to push to github [ptg]: See the *Push to GitHub* in *01_Prereqs/Prereq_GitHub/readme.md*
 - Github being pissy and you want to overwrite? : ```git push origin --force``` then do regular push like ```ptg "stuff"```
 
-### *venv*: Virtual Environment Quick Reference
+### *venv*: Quick Reference
 - *venv* is a temporary and self-contained build environment so you don't screw up your main Python install, later *Docker* will replace *venv*
 - ```python -m venv venv``` Once that completes you can use 
 - ```source venv/bin/activate``` to start the virtual environment.
