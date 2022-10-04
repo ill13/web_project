@@ -21,10 +21,10 @@
 - Note: Don't forget to create a *.gitignore* and add the *venv/* folder so Github doesn't get full of stuff
 
 ### *docker-compose*: Quick Reference
-- ```docker-compose up -d```: When in the directory of the container you want to build and start
-- ```docker-compose build```: After making some changes to your container
-- ```sudo docker-compose push```: Push the build to docker.io
-- ```sudo docker stop [name]```: Stop a docker container
-- ```sudo docker rm [name]```: Remove a docker container
-- ```sudo docker ps```: Show active docker containers:
+- ```docker-compose up -d``` : When in the directory of the container you want to build and start
+- ```docker-compose build``` : After making some changes to your container
+- ```sudo docker-compose push``` : Push the build to docker.io
+- ```sudo docker stop [name]``` : Stop a docker container
+- ```sudo docker rm [name]``` : Remove a docker container
+- ```sudo docker ps``` : Show active docker containers:
  
