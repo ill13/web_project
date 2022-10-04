@@ -9,12 +9,22 @@
 - ```code .``` To open VS Code with this project loaded
 
 
-### Github Quick Reference
-- ```ptg "things I did"``` to push to github [ptg]: See the *Push to GitHub* in *01_Prereqs/Prereq_GitHub/readme.md*
+### *Github*: Quick Reference
+- ```ptg "things you did"``` to push to github [ptg]: See the *Push to GitHub* in *01_Prereqs/Prereq_GitHub/readme.md*
 - Github being pissy and you want to overwrite? : ```git push origin --force``` then do regular push like ```ptg "stuff"```
 
 ### *venv*: Virtual Environment Quick Reference
-- ```python -m venv venv``` Once that completes you can use ```source venv/bin/activate``` to start it.
-- When you are done with *venv* and you'd like to exit the virtual environment, just type ```deactivate``` to exit. 
+- *venv* is a temporary and self-contained build environment so you don't screw up your main Python install, later *Docker* will replace *venv*
+- ```python -m venv venv``` Once that completes you can use 
+- ```source venv/bin/activate``` to start it.
+-  ```deactivate```: When you are done with *venv* and you'd like to exit the virtual environment, just type to *deactivate* exit. 
 - Note: Don't forget to create a *.gitignore* and add the *venv/* folder so Github doesn't get full of stuff
 
+### *docker-compose*: Quick Reference
+- ```docker-compose up -d```: When in the directory of the container you want to build and start
+- ```docker-compose build```: After making some changes to your container
+- ```sudo docker-compose push```: Push the build to docker.io
+- ```sudo docker stop [name]```: Stop a docker container
+- ```sudo docker rm [name]```: Remove a docker container
+- ```sudo docker ps```: Show active docker containers:
+ 
