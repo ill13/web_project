@@ -1,1 +1,6 @@
-__pycache__/
+.venv/*
+venv/*
+__pycache__/*
+app/__pycache__/*
+
+web_project.code-workspace
