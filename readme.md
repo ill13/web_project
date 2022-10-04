@@ -1,12 +1,13 @@
 # A tutorial on using Python with a newer style of webdev [versus LAMP ]
 
-This 'newer style coding' tutorial will allow for 
-- Local cdoe dev with WSL and Microsoft Visual Studio Code
-- Remote code editing with Microsoft Visual Studio Code
-- CI / CD [continuous integration and development]
-- Production ready web serving with FastAPI
-- Modern web templating and design with Bootstrap and CSS
-- Containers with docker and docker compose, 
+This 'newer style webdev / coding' tutorial will cover 
+- Local code dev with **WSL2** and **Microsoft Visual Studio Code**
+- *Remote code editing* with MSVSCode
+- *CI / CD* [continuous integration and development]
+- Production ready web serving with **FastAPI**
+- Modern web templating and design with **Jinja2** [using *Bootstrap* and CSS]
+- Using containers with **docker** and **docker-compose**
+- Using **Nginx** for *SSL* and as a *reverse proxy*
 
 ### To work on this project locally, 
 
