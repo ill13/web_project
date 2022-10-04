@@ -12,8 +12,7 @@ This 'newer style webdev / coding' tutorial will cover
 There is an assumption you are somewhat familiar with Linux and WSL, Scripting, Python, Webdev, VSCode, Docker, and Github. You should certainly already have accounts and know how to authenticate via the command line for Github and Docker.
 ***
 
-### To work on this project locally, 
-
+### To work on this project locally
 - ```wsl``` Fire up *WSL* from a command line
 - ```cd ~``` Navigate to *home*. You can store this repo wherever you want, I use *~/code/*
 - ```gh repo clone ill13/web_project``` Clone this repo to your home folder
