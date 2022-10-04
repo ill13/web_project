@@ -8,22 +8,19 @@ from datetime import datetime
 
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+my_string=f"Hello World using FastAPI, uvicorn, and Jinja2! It's {dt_string}!"
 
+# Open a local text file and add each line as a list item
+with open('text.txt') as f:
+    my_list = list(f)
 
-my_date_string=f"Hello World using FastAPI, uvicorn, and Jinja2! It's {dt_string}!"
 
 app = FastAPI()
-templates = Jinja2Templates("templates") # folder where your templates are stored
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
-
-
-# @app.get("/")
-# def index():
-#     return {"title":my_date_string}
+templates = Jinja2Templates("templates") # folder where your HTML templates are stored
+app.mount("/static", StaticFiles(directory="static"), name="static") # folder containing styles.css
 
 
 @app.get("/")
 
-def index(request: Request):
-    return templates.TemplateResponse("index.html",context={"request":request,'title':'Demo0'})
+async def index(request: Request):
+    return templates.TemplateResponse("index.html",context={'request':request,'title':"Demo0", 'content':my_string, 'my_list':my_list})
