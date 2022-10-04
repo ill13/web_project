@@ -14,10 +14,7 @@
 - Github being pissy and you want to overwrite? : ```git push origin --force``` then do regular push like ```ptg "stuff"```
 
 ### *venv*: Virtual Environment Quick Reference
-
-```python -m venv venv``` Once that completes you can use ```source venv/bin/activate``` to start it.
-
-When you are done with *venv* and you'd like to exit the virtual environment, just type ```deactivate``` to exit. 
-
-Note: Don't forget to create a *.gitignore* and add the *venv/* folder so Github doesn't get full of stuff
+- ```python -m venv venv``` Once that completes you can use ```source venv/bin/activate``` to start it.
+- When you are done with *venv* and you'd like to exit the virtual environment, just type ```deactivate``` to exit. 
+- Note: Don't forget to create a *.gitignore* and add the *venv/* folder so Github doesn't get full of stuff
 
