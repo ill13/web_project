@@ -38,7 +38,7 @@ sudo cp -r ~/downloads/gh_${VERSION}_linux_amd64/share/man/man1/* /usr/share/man
 gh auth login
 rm -r ~/downloads
 ```
-#### Push to git
+#### Push to GitHub
 
 From *home folder* ```nano .bashrc``` and add this
 
