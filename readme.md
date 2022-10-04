@@ -2,12 +2,15 @@
 
 This 'newer style webdev / coding' tutorial will cover 
 - Local code dev with **WSL2** and **Microsoft Visual Studio Code**
-- *Remote code editing* with MSVSCode
-- *CI / CD* [continuous integration and development]
+- *Remote code editing* with MSVSCode for *CI / CD* [continuous integration and development]
 - Production ready web serving with **FastAPI**
 - Modern web templating and design with **Jinja2** [using *Bootstrap* and CSS]
 - Using containers with **docker** and **docker-compose**
-- Using **Nginx** for *SSL* and as a *reverse proxy*
+- Using **NGINX** for *SSL* and as a *reverse proxy*
+
+
+There is an assumption you are somewhat familiar with Linux and WSL, Scripting, Python, Webdev, VSCode, Docker, and Github. You should certainly already have accounts and know how to authenticate via the command line for Github and Docker.
+***
 
 ### To work on this project locally, 
 
