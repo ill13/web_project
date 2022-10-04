@@ -12,4 +12,4 @@ Install *JInja2* with ```python -m pip install fastapi uvicorn Jinja2```
 #### Go live!
 
 From the main folder and execute: ```uvicorn app.main:app --host 0.0.0.0 --port 8000```
-Open a web browser and navigate to ```localhost:8000``` and you should see some text!!
+Open a web browser and navigate to ```localhost:8000``` and you should see some text
