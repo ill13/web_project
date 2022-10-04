@@ -7,7 +7,7 @@ Just a simple demo using FastAPI, Docker with Jinja2 [Demonstrates Jinja templat
 
 ```python -m venv venv``` Once that completes ```source venv/bin/activate```
 
-Install *JInja2* with ```python -m pip install Jinja2```
+Install *JInja2* with ```python -m pip install fastapi uvicorn Jinja2```
 
 #### Go live!
 
