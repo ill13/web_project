@@ -27,7 +27,8 @@ There is an assumption you are somewhat familiar with Linux and WSL, Scripting, 
 ### *venv*: Quick Reference
 *venv* is a temporary and self-contained build environment so you don't screw up your main Python install, later *Docker* will replace *venv*
 - ```python -m venv venv``` Once that completes you can use 
-- ```source venv/bin/activate``` to start the virtual environment.
+- ```source venv/bin/activate``` to start the virtual environment in Linux/WSL. 
+- ```venv/scripts/activate``` to start the virtual environment in Windows
 -  ```deactivate``` When you are done with *venv* and you'd like to exit the virtual environment, just type *deactivate* to exit. 
 - Note: Don't forget to create a *.gitignore* and add the *venv/* folder so Github doesn't get full of stuff
 
