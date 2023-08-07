@@ -14,6 +14,7 @@ There is an assumption you are somewhat familiar with Linux and WSL, Scripting, 
 
 ### To work on this project locally
 - ```wsl``` Fire up *WSL* from a command line
+ - Setup *WSL* with ```wsl --install```, then follow the prompts
 - ```cd ~``` Navigate to *home*. You can store this repo wherever you want, I use *~/code/*
 - ```gh repo clone ill13/web_project``` Clone this repo to your home folder
 - ```code .``` To open VS Code with this project loaded
