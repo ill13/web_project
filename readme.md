@@ -18,6 +18,7 @@ There is an assumption you are somewhat familiar with Linux and WSL, Scripting, 
 - ```cd ~``` Navigate to *home*. You can store this repo wherever you want, I use *~/code/*
 - ```gh repo clone ill13/web_project``` Clone this repo to your home folder
 - ```code .``` To open VS Code with this project loaded
+- You may need to install *https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack* to get the ```venv``` to be recognized.
 
 
 ### *Github*: Quick Reference
