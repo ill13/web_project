@@ -22,13 +22,13 @@ If this is the first time you are using this key pair, you must set the file per
 
 To connect to the instance, open Windows PowerShell and run the following command
 
-```ssh -i .\ssh-key-2022-09-07.key ubuntu@150.136.53.57``
+```ssh -i .\ssh-key-2022-09-07.key ubuntu@150.136.53.57```
 
 #### Connecting to Oracle in PowerShell
-
+```
 ssh -i <private_key_file> <username>@<public-ip-address>
 
 ssh -i ssh-key-2022-09-07.key ubuntu@150.136.53.57
-
+```
 
 
